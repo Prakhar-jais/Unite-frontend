@@ -1,0 +1,19 @@
+.well{
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 36.5vw;
+    width: 58.5vw;
+    height: 80vh;
+}
+.imag{
+    height: 70vh;
+    
+    background-color: white;
+}
+
+.par{
+    background-color:white ;
+
+}

@@ -1,0 +1,107 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex :0.65;
+}
+
+.chat_header{
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.chat_header > .MuiAvatar-root >.MuiSvgIcon-root{
+    color: grey;
+    
+    border-radius: 50px;
+    position: relative;
+    background-color: black;
+   
+}
+
+.chat_headerRight > .MuiButtonBase-root{
+    color: black;
+}
+
+
+.chat_headerInfo{
+    flex:1; 
+    /*this pushes other component as far it can  */
+    padding-left: 20px;
+    
+}
+.chat_headerInfo > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chat_headerInfo > p{
+    color:black;
+
+}
+
+.chat_body{
+    flex:1;
+    background-image: url("https://i.pinimg.com/736x/e4/84/b6/e484b6bdd768c259162daefdc20994bd--whatsapp-background-doodles.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow:scroll;
+    color: black;
+}
+
+.chat_message{
+   
+    position: relative;
+    font-size:16px;
+    padding:10px;
+    width:fit-content;
+    border-radius:10px;
+    background-color:#ffffff;
+    margin-bottom:30px;
+}
+
+.chat_reciever{
+    margin-left: auto;
+    background-color:lightgrey ;
+}
+.chat_timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.chat_name{
+    position: absolute;
+    top: -20px;
+    color: #ffffff;
+    font-weight:800;
+    font-size: small;
+}
+
+.chat_footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+.chat_footer > form{
+
+    flex: 1;
+    display: flex;
+}
+
+.chat_footer > form > input{
+    flex:1;
+    border-radius: 30px;
+    padding: 10px;
+    border:none;
+}
+.chat_footer > form > button{
+    display: none;
+}
+
+
+.chat_footer>.emoji-picker-react{
+    background-color: black;
+}
